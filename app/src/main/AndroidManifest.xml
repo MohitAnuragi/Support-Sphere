@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SupportSphere"
+        tools:targetApi="34">
+        <activity
+            android:name=".simple_list_item_1"
+            android:exported="false" />
+        <activity
+            android:name=".passenger_list"
+            android:exported="false" />
+        <activity
+            android:name=".findride"
+            android:exported="false" />
+        <activity
+            android:name=".alumni_layout"
+            android:exported="false" />
+        <activity
+            android:name=".food2"
+            android:exported="false" />
+        <activity
+            android:name=".food1"
+            android:exported="false" />
+        <activity
+            android:name=".food_item_layout"
+            android:exported="false" />
+        <activity
+            android:name=".Food1"
+            android:exported="false" />
+        <activity
+            android:name=".query"
+            android:exported="false" />
+        <activity
+            android:name=".eightsem"
+            android:exported="false" />
+        <activity
+            android:name=".seventhsem"
+            android:exported="false" />
+        <activity
+            android:name=".sixthsem"
+            android:exported="false" />
+        <activity
+            android:name=".fifthsem"
+            android:exported="false" />
+        <activity
+            android:name=".foursem"
+            android:exported="false" />
+        <activity
+            android:name=".thirdsem"
+            android:exported="false" />
+        <activity
+            android:name=".secondsem"
+            android:exported="false" />
+        <activity
+            android:name=".firstsem"
+            android:exported="false" />
+        <activity
+            android:name=".ridePage"
+            android:exported="false" />
+        <activity
+            android:name=".help"
+            android:exported="false" />
+        <activity
+            android:name=".complain"
+            android:exported="false" />
+        <activity
+            android:name=".alumni"
+            android:exported="false" />
+        <activity
+            android:name=".office"
+            android:exported="false" />
+        <activity
+            android:name=".senior"
+            android:exported="false" />
+        <activity
+            android:name=".food"
+            android:exported="false" />
+        <activity
+            android:name=".study"
+            android:exported="false" />
+        <activity
+            android:name=".background"
+            android:exported="false" />
+        <activity
+            android:name=".splaceScreen"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="false" />
+        <activity
+            android:name=".Signup"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Support Sphere</string>
+    <string name="guiding_your_success_every_step_of_the_way">\'Guiding Your Success Every Step Of The Way\'</string>
+    <string name="created_by_n_crazy_developer">Created By \n CRAZY DEVELOPER</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="enter_e_mail">Enter E-mail</string>
+    <string name="create_password">Create Password</string>
+    <string name="sign_up">Sign up</string>
+    <string name="user_signup">User Signup</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="login">Login</string>
+    <string name="signup">Signup</string>
+    <string name="user_login">User Login</string>
+    <string name="study">Study</string>
+    <string name="food">Food</string>
+    <string name="senior">Senior</string>
+    <string name="office">Office</string>
+    <string name="alumni">Alumni</string>
+    <string name="complain">Complain</string>
+    <string name="select_food">Select Food</string>
+    <string name="breakfast_snacks">Breakfast/Snacks</string>
+    <string name="lunch_dinner">Lunch/Dinner</string>
+    <string name="confirm_password">Confirm_password</string>
+    <string name="help">HELP</string>
+    <string name="complian">Complian</string>
+    <string name="to">To</string>
+    <string name="date">Date</string>
+    <string name="first_semester_content">First Semester Content</string>
+    <string name="contact_7697273248">Contact : 7697273248</string>
+    <string name="breakfast_snacks_party">Breakfast/Snacks/Party</string>
+</resources>

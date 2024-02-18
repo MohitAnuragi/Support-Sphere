@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#77F3F852"
+    tools:context=".splaceScreen">
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/study"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="150dp"
+        app:cardCornerRadius="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.078"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imgstudy"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/study" />
+
+        <TextView
+            android:id="@+id/textstudy"
+            android:layout_width="match_parent"
+            android:layout_height="83dp"
+            android:layout_marginTop="88dp"
+            android:gravity="center"
+            android:text="@string/study"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="italic" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/food"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="45dp"
+        app:cardCornerRadius="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.75"
+        app:layout_constraintStart_toEndOf="@+id/study"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imgfood"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/food" />
+
+        <TextView
+            android:id="@+id/textfood"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="27dp"
+            android:layout_marginTop="100dp"
+            android:gravity="center"
+            android:text="@string/food"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="italic" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/alumni"
+        android:layout_width="96dp"
+        android:layout_height="149dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="68dp"
+        app:cardCornerRadius="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/study">
+
+        <TextView
+            android:id="@+id/textalumni"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="106dp"
+            android:text="@string/alumni"
+            android:textColor="#0C0B0B"
+            android:textSize="20sp"
+            android:textStyle="italic" />
+
+        <ImageView
+            android:id="@+id/imgallumani"
+            android:layout_width="wrap_content"
+            android:layout_height="109dp"
+            android:layout_marginBottom="140dp"
+            app:srcCompat="@drawable/alumani" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/travel"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="64dp"
+        app:cardCornerRadius="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.931"
+        app:layout_constraintStart_toEndOf="@+id/alumni"
+        app:layout_constraintTop_toBottomOf="@+id/food">
+
+        <TextView
+            android:id="@+id/texttravel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="106dp"
+            android:text="Travel"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="italic" />
+
+        <ImageView
+            android:id="@+id/imgtravel"
+            android:layout_width="match_parent"
+            android:layout_height="95dp"
+            app:srcCompat="@drawable/travel" />
+    </androidx.cardview.widget.CardView>
+
+    <ImageView
+        android:id="@+id/imghelp"
+        android:layout_width="104dp"
+        android:layout_height="117dp"
+        android:contentDescription="@string/help"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/alumni"
+        app:srcCompat="@drawable/help" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:backgroundTint="#F6E208"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="401dp"
+            android:layout_height="88dp"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-thin"
+            android:gravity="center"
+            android:text="Support Sphere"
+            android:textColor="@color/black"
+            android:textFontWeight="400"
+            android:textSize="50sp"
+            android:textStyle="bold" />
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
